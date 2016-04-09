@@ -68,7 +68,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "人会死三次. 第一次是停止呼吸, 第二次是下葬的时候, 第三次是最后一个记得你的人死去. 我想用这个博客延长我的第三次死亡时间"
-sidebar-avatar: /img/avatar-yuanbo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://avatars2.githubusercontent.com/u/5643344      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
