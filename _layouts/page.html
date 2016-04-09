@@ -105,6 +105,9 @@ layout: default
                         {% if site.sidebar-avatar %}
                             <img src="{{site.sidebar-avatar}}" />
                         {% endif %}
+                        {% if site.email %}
+                            <address>{{site.email}}</address>
+                        {% endif %}
                         {% if site.sidebar-about-description %}
                             <p>{{site.sidebar-about-description}}</p>
                         {% endif %}
