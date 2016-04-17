@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "First blog from Yuanbo"
-subtitle:   "\"Hello World, Hello Blog\""
-date:       2016-04-10 11:50:00
+title:      "Start Deep learning"
+subtitle:   "\"first blog of deep learning\""
+date:       2016-04-107 17:20:00
 author:     "Yuanbo"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - 生活
+    - Deep Learning
+    - Machine Learning
 ---
 
 # 正文
