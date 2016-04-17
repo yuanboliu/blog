@@ -6,8 +6,8 @@ date:       2016-04-17 15:44:00
 author:     "Yuanbo"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - Deep Learning
-    - Machine Learning
+    - DeepLearning
+    - MachineLearning
 ---
 
 # 正文
