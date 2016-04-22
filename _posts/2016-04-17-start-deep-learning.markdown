@@ -2,7 +2,7 @@
 layout:     post
 title:      "Start Deep learning"
 subtitle:   "\"first blog of deep learning\""
-date:       2016-04-107 17:20:00
+date:       "2016-04-107 17:20:00"
 author:     "Yuanbo"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
