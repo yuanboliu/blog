@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "First blog from Yuanbo"
-subtitle:   "\"Hello World, Hello Blog\""
+title:      First blog from Yuanbo
+subtitle:   Hello World, Hello Blog
 date:       2016-04-10 11:50:00
-author:     "Yuanbo"
-header-img: "img/post-bg-2015.jpg"
+author:     Yuanbo
+header-img: img/post-bg-2015.jpg
 tags:
     - 生活
 ---

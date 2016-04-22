@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Hadoop, 从入门到放弃"
-subtitle:   "\"title纯粹是开玩笑\""
-date:       2016-04-22 11:08:00
-author:     "Yuanbo"
-header-img: "img/post-bg-unix-linux.jpg"
+title:      Hadoop 从入门到放弃
+subtitle:   part-1
+date:       2016-04-21 10:20:00
+author:     Yuanbo
+header-img: img/post-bg-unix-linux.jpg
 tags:
-    - Hadoop Learning
+    - Learning Hadoop
 ---
 
 # 前言
-最近出现一个流行语, xxx, 从入门到放弃
+最近比较流行, "xxx, 从入门到放弃"

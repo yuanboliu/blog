@@ -1,19 +1,20 @@
 ---
 layout:     post
-title:      "Start Deep learning"
-subtitle:   "\"first blog of deep learning\""
+title:      Start Deep learning
+subtitle:   first blog of deep learning
 date:       2016-04-10 17:20:00
-author:     "Yuanbo"
-header-img: "img/post-bg-unix-linux.jpg"
+author:     Yuanbo
+header-img: img/post-bg-unix-linux.jpg
 tags:
-    - DeepLearning
-    - MachineLearning
+    - Deep Learning
+    - Machine Learning
 ---
 
 # 正文
 第一次听说机器学习, 是在大二/三那会儿. 那时候流行竞赛和建模,    周边几个学霸型的同学会谈起人工智能, 博弈论, 机器学习等概念. 当时觉得这些概念离自己的生活比较遥远, 猜想这些概念离实际应用会有一段时间. 16年的AlphaGo人机大战, 让机器学习, 深度学习等概念迅速地普及开来. 借着这鼓流行风, 我觉得可以开始涉足deep learning领域.
 
 我进入职场以来, 从事的是大数据领域相关工作. 个人认为, 大数据与deep learning有着很强烈的联系, 这也是促使我开始学习deep learning的一个重要原因. 另外, 在我看来, 我的程序编写道路有着很强烈的阶段性色彩:
+
   - 第一个阶段, 时效性很短的程序. 如一个hello world程序, 一次快排程序, 解决黑色星期五问题的程序.
   - 第二个阶段, 响应式程序. 如网页php程序, 前端网页程序, 用户发出请求, 响应请求,计算结果, 返回结果, 这类程序运行偏阶段性.
   - 第三个阶段, 常驻进程, 如spark streaming 7x24小时服务, 维护Hadoop集群保持不宕机状态, 这类程序通常会有多进程, 多线程的特点
