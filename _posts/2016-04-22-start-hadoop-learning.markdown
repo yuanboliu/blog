@@ -23,5 +23,5 @@ Hadoop起源于Google的三篇论文, 首先我们简单回顾一下关于GFS的
   
 第一点, 软件以及硬件故障不是特例, 而是常态. 这就要求系统具有很强的容错性. 第二点, 数据量超大, 这就要求系统应该具有一定的分布式结构, 具有扩展性, 对数据的处理(增删改查), 应当具有原子性, 一致性等特点. 那么, GFS是如何解决上述问题的呢? 一个典型的分布式系统一般由一台master节点和一系列worker节点组成. master节点一般保存元数据, 并协调worker节点共同工作. worker节点负责具体工作内容. 具体到一个能做数据读写的GFS, 其场景架构如下:
 
-![image](/img/post-start-hadoop/read-scenario.png)
-![image](/img/post-start-hadoop/write-scenario.png)
+![image](/img/in-post/post-start-hadoop/read-scenario.png)
+![image](/img/in-post/post-start-hadoop/write-scenario.png)
