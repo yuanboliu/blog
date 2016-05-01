@@ -10,8 +10,7 @@ tags:
 ---
 
 # 正文
-
-> "工欲善其事， 必先利其器"
+> 工欲善其事， 必先利其器
 
 Hadoop HDFS项目首先是一个Java Maven项目， 其次才是Hadoop项目， 那么花些时间了解一下Maven是很有必要的。本文主要聚焦于Maven modules之间的依赖关系。Maven之间依赖主要依靠以下两种方式实现
  
@@ -26,20 +25,33 @@ Hadoop HDFS项目首先是一个Java Maven项目， 其次才是Hadoop项目， 
 （注：此项目结构是part-1实现需要用到的结构，并不是完整的Hadoop项目结构）
 
 是不是觉得上面的结构很绕？一个简单理解的方式是，module定义的是项目的目录结构以及编译顺序，parent定义的是属性依次加载顺序（后者覆盖前者，如dependency，property，build等属性）。我们从module的角度来看，项目结构如下
+
 ```
-    hadoop-main
-    └ hadoop-project
-    └ hadoop-project-dist
-    └ hadoop-hdfs-project
-        └ hadoop-hdfs
-```
-从parent角度（属性继承链）来看，此项目的结构如下：
-```
-    hadoop-main
-    └ hadoop-project
-      └ hadoop-project-dist
-        └ hadoop-hdfs
-      └ hadoop-hdfs-project
+hadoop-main
+
+└ hadoop-project
+
+└ hadoop-project-dist
+
+└ hadoop-hdfs-project
+
+    └ hadoop-hdfs
         
 ```
+
+从parent角度（属性继承链）来看，此项目的结构如下：
+
+```
+hadoop-main
+
+└ hadoop-project
+
+    └ hadoop-project-dist
+    
+    └ hadoop-hdfs
+    
+    └ hadoop-hdfs-project
+
+```
+
 这样我们就大致了解了Hadoop项目模块之间的关系。准备提交一个commit
