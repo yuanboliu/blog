@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Hadoop 从入门到放弃
+title:      Hadoop 从入门到放弃-part 1
 subtitle:   part-1
 date:       2016-04-21 10:20:00
 author:     Yuanbo
